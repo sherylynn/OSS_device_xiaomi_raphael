@@ -16,7 +16,7 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/configs/common.mk)
+$(call inherit-product, vendor/lineage/configs/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
